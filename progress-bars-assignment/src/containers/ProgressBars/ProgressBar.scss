@@ -1,0 +1,17 @@
+$buttonbgcolor: rgb(255, 0, 21);
+$buttontextcolor: rgb(243, 233, 233);
+
+.progress-value {
+    padding-left: 5px;
+    color:black;
+    font-Weight: bold;
+  }
+
+  .buttonStyles {
+    color: $buttontextcolor;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: $buttonbgcolor;
+    text-align: center;
+  }
