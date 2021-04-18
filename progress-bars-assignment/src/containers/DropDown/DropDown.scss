@@ -1,0 +1,27 @@
+$bgcolor: rgb(236, 242, 243);
+$textcolor: rgb(15, 3, 9);
+$bordercolor: rgb(46, 16, 16);
+$fontsize: 14px;
+select {
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    border: 2px solid $bordercolor;
+    border-radius: 5px;
+    background-Color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+    @media (max-width: '400px') {
+        width: 150px;
+    }
+    }
+
+
+.border{
+    margin-top:50px;
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:20px;
+    padding-bottom:50px;
+    border: 1px solid;
+}
